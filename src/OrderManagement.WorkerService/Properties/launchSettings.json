@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "OrderManagement.WorkerService": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "RabbitMQ__Host": "rabbitmq",
+        "Logging__Loki__Url": "http://loki:3100"
+      }
+    }
+  }
+}

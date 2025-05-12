@@ -1,0 +1,80 @@
+
+/* Custom Swagger UI Theme */
+.swagger-ui .topbar {
+    background-color: #2C3E50;
+    padding: 10px 0;
+}
+
+.swagger-ui .info {
+    margin: 20px 0;
+}
+
+.swagger-ui .info .title {
+    color: #2C3E50;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.swagger-ui .opblock.opblock-get {
+    background: rgba(97, 175, 254, 0.1);
+    border-color: #61affe;
+}
+
+.swagger-ui .opblock.opblock-post {
+    background: rgba(73, 204, 144, 0.1);
+    border-color: #49cc90;
+}
+
+.swagger-ui .opblock.opblock-put {
+    background: rgba(252, 161, 48, 0.1);
+    border-color: #fca130;
+}
+
+.swagger-ui .opblock.opblock-delete {
+    background: rgba(249, 62, 62, 0.1);
+    border-color: #f93e3e;
+}
+
+.swagger-ui .btn.execute {
+    background-color: #4990e2;
+    color: white;
+    border-color: #4990e2;
+}
+
+.swagger-ui .btn.execute:hover {
+    background-color: #357abd;
+}
+
+.swagger-ui section.models {
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.swagger-ui section.models h4 {
+    color: #2C3E50;
+}
+
+/* Logo styling */
+.swagger-ui .topbar-wrapper img {
+    content: url('https://via.placeholder.com/150x50?text=Order+Management');
+}
+
+/* Response styling */
+.swagger-ui .responses-inner h4, .swagger-ui .responses-inner h5 {
+    color: #2C3E50;
+}
+
+.swagger-ui .response-col_status {
+    font-weight: bold;
+}
+
+/* JSON Schema styling */
+.swagger-ui .model-box {
+    background: rgba(0, 0, 0, 0.01);
+}
+
+/* Descriptions */
+.swagger-ui .markdown p, .swagger-ui .renderedMarkdown p {
+    color: #3b4151;
+    line-height: 1.5;
+}
